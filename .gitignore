@@ -1,2 +1,29 @@
-node_modules/ 
-dist/ 
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Android (IMPORTANT)
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Security
+*.jks
+*.keystore
