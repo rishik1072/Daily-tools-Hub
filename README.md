@@ -1,88 +1,208 @@
-# DailyTools Hub
+# 🚀 DailyTools Hub
 
-DailyTools Hub is a modern, lightweight, all-in-one web app that bundles daily utility workflows into one fast interface.
 
-## Highlights
+🔥 **All-in-one Android utility app with 20+ powerful tools** built using React + Capacitor.
 
-- Modern grid dashboard with categorized tools
-- Light and dark mode
-- Smooth transitions using Framer Motion
-- Favorites and recent tool history
-- Offline-friendly local-first tools (notes, to-do, habit tracker, planner, timer)
-- Privacy-first file workflows with in-browser processing for supported operations
+---
 
-## Categories Included
+## 📱 App Preview
 
-- PDF Tools: merge, split, image to PDF, watermark, sign, API-ready OCR/compression
-- Daily Utilities: calculator, unit converter, QR generator/scanner, text tools, password generator, notes
-- Productivity: to-do with reminders, planner, habit tracker, Pomodoro, calendar event link integration
-- AI Tools: summarizer, resume draft generator, email writer, local chat assistant, code snippet generator
-- File Tools: image compressor, image resizer, format converter, document scanner to PDF
+---
 
-## Tech Stack
+### 🏠 Home & Navigation
 
-- React 19 + Vite + TypeScript
-- Tailwind CSS v4
-- Framer Motion for UI motion
-- pdf-lib for local PDF processing
-- qrcode for QR generation
-- Local caching with localStorage
+<p align="center">
+  <img src="./screenshots/home.jpeg" width="250"/>
+</p>
 
-## Local Development
+Clean dashboard with categorized tools,
 
-1. Install dependencies:
+🔍 Search bar for quick access,
+
+⚡ Smooth UI with modern design.
+
+---
+
+### 📄 PDF Tools
+
+<p align="center">
+  <img src="./screenshots/PDF tools .jpeg" width="250"/>
+</p>
+
+* Merge multiple PDFs into one
+* Split PDF into pages
+* Compress PDF size
+* Add watermark & signatures
+* OCR text extraction
+
+---
+
+### 🤖 AI Tools
+
+<p align="center">
+  <img src="./screenshots/AI tools.jpeg" width="250"/>
+</p>
+
+* Text Summarizer
+* Resume Generator
+* Email Writer
+* Chat Assistant
+* Code Generator
+
+---
+
+### ⚡ Productivity Tools
+
+<p align="center">
+  <img src="./screenshots/productivity.jpeg" width="250"/>
+</p>
+
+* To-do List
+* Daily Planner
+* Habit Tracker
+* Pomodoro Timer
+* Calendar Planner
+
+---
+
+### 🧰 Utilities
+
+<p align="center">
+  <img src="./screenshots/utilities.jpeg" width="250"/>
+</p>
+
+* Calculator (advanced functions)
+* Unit Converter
+* QR Code Generator
+* QR Scanner
+* Password Generator
+* Quick Notes
+
+---
+
+### 📂 File Tools
+
+<p align="center">
+  <img src="./screenshots/file tools.jpeg" width="250"/>
+</p>
+
+* File Compressor (ZIP)
+* Image Resizer
+* Image Converter (PNG ↔ JPG)
+* Document Scanner
+
+---
+
+### 🔧 Tool Example — Merge PDF
+
+<p align="center">
+  <img src="./screenshots/after tool selection.jpeg" width="250"/>
+</p>
+
+📄 **Merge multiple PDF files into one** with a simple workflow:
+
+* 📂 Select multiple files
+* ✏️ Rename output file before download
+* ⚡ One-click processing
+* 📱 Fast & smooth mobile experience
+
+---
+
+### 💡 How It Works
+
+1. Open **Merge PDF**
+2. Select your PDF files
+3. Enter output file name
+4. Tap **Merge PDFs**
+5. Download instantly 🚀
+
+---
+
+## ⚡ Features
+
+* 📄 PDF Tools (Merge, Split, Compress, Watermark)
+* 🧮 Unit Converter
+* 🖼️ Image to PDF / Converter
+* ⭐ Favorites System
+* 🌙 Dark Mode Support
+* 📂 Rename files before download
+* 📱 Android-ready (Capacitor)
+* ⚡ Fast & lightweight UI
+
+---
+
+## 📦 Download APK
+
+👉 **Download Latest APK:**
+
+➡️ https://github.com/rishik1072/DailyTools-Hub/releases
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React (Vite)
+* 🎨 Tailwind CSS
+* 📱 Capacitor (Android)
+* 📦 pdf-lib
+
+---
+
+## 🚀 Run Locally
 
 ```bash
+git clone https://github.com/YOUR-USERNAME/DailyTools-Hub.git
+cd DailyTools-Hub
 npm install
-```
-
-2. Start development server:
-
-```bash
 npm run dev
 ```
 
-3. Build for production:
+---
+
+## 📱 Build APK
 
 ```bash
 npm run build
+npx cap sync
+npx cap open android
 ```
 
-## Deployment Guide
+Then build APK from Android Studio.
 
-### Vercel
+---
 
-1. Push this project to GitHub.
-2. Import repository into Vercel.
-3. Build command: `npm run build`
-4. Output directory: `dist`
-5. Deploy.
+## 💡 Future Improvements
 
-### Netlify
+* ☁️ Cloud storage integration
+* 🔍 OCR support
+* 📄 Better PDF compression
+* 🤖 Offline AI tools
 
-1. Connect repository in Netlify.
-2. Build command: `npm run build`
-3. Publish directory: `dist`
-4. Deploy.
+---
 
-### Firebase Hosting
+## 👨‍💻 Author
 
-1. Install Firebase CLI.
-2. Run `firebase init hosting` and set `dist` as public directory.
-3. Build app with `npm run build`.
-4. Run `firebase deploy`.
+**Rishik Gorakala**
 
-## Backend/API Integration Notes
+* GitHub: https://github.com/rishik1072
 
-- PDF compress and OCR are prepared as API-ready workflows in the UI.
-- Integrate Node.js or Firebase Functions endpoints for:
-  - OCR processing
-  - PDF to Word conversion
-  - Advanced AI generation
-- For cloud sync, add Firestore (or your preferred backend) to sync notes/tasks across devices.
+---
 
-## Security and Privacy
+## ⭐ Support
 
-- No login required for core usage
-- Local processing for supported sensitive file operations
-- No unnecessary data collection in the frontend app
+If you like this project, consider giving it a ⭐
+
+---
+
+
+## 📂 Project Structure
+
+```
+DailyTools-Hub/
+├── android/
+├── src/
+├── screenshots/
+├── package.json
+├── README.md
+└── .gitignore
+```
